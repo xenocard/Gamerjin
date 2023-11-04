@@ -1,2 +1,5 @@
-[Can always use Spirit attacks]
+[Can always use Spirit attacks off]
 04000000 0200F8F4 1A9FB7E0
+
+[Can always use Spirit attacks]
+04000000 0200F8F4 52800020
