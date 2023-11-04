@@ -1,8 +1,19 @@
-[Can always use Spirit attacks off]
+[Breeze beta78  Ebenezer and The Invisible World 1.0.0 TID: 01001B001C0E8000 BID: 6A07555D4E6D2EA9]
+
+[All off code]
 04000000 0200F8F4 1A9FB7E0
+04000000 01FFBC60 B9401AC8
+04000000 01FFB850 39518108
 
 [Can always use Spirit attacks]
 04000000 0200F8F4 52800020
 
-[Inf Hp off]
-04000000 01FFBC60 LDR             W8, [X22,#0x18]
+[Inf Hp]
+04000000 01FFBC60 B9401EC8
+
+[Invincible(phase-thru)]
+04000000 01FFB850 52800028
+04000000 01FFB854 350001E8
+[im not sure which method i want to use.]
+[either force w8 to 1,]
+[or force the jump it makes]
