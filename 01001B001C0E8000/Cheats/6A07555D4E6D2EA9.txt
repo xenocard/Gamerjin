@@ -3,3 +3,6 @@
 
 [Can always use Spirit attacks]
 04000000 0200F8F4 52800020
+
+[Inf Hp off]
+04000000 01FFBC60 LDR             W8, [X22,#0x18]
