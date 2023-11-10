@@ -1,1 +1,11 @@
 
+[life option]
+20000000
+main:0000000003C694E0 DCD 0x1E2703E1 <= inf life crystals
+main:0000000003C69A08 DCD 0x1A9F87E0 <- force 0 to prevent game over
+
+
+3C68C24
+cmp S8,S2 <- recharge (ZR) (S1=0) => use S3
+cmp S8,S1 <- firing a shot (S2=0) => use S1
+cmp S8,S1 <- defeat enemies(S2=0) => use S8
