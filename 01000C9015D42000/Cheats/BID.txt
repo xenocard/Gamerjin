@@ -9,3 +9,6 @@ main:0000000003C69A08 DCD 0x1A9F87E0 <- force 0 to prevent game over
 cmp S8,S2 <- recharge (ZR) (S1=0) => use S3
 cmp S8,S1 <- firing a shot (S2=0) => use S1
 cmp S8,S1 <- defeat enemies(S2=0) => use S8
+
+[inv]
+main:0000000002C70EC8 DCD 0x39431508
